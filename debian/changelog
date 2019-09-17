@@ -1,3 +1,11 @@
+freerdp (1.1.2) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: CREDSSP version 6 support
+    - debian/patches/CREDSSP6.patch: Added support for CREDSSP version 6.
+    - CVE-2018-8786
+
+ -- Eduardo Barretto <eduardo.barretto@canonical.com>  Mon, 27 May 2019 14:14:40 -0300
+
 freerdp (1.1.0~git20140921.1.440916e+dfsg1-15ubuntu1.18.04.1) bionic-security; urgency=medium
 
   * SECURITY UPDATE: Integer truncation in update_read_bitmap_update
