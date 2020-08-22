@@ -1,0 +1,15 @@
+Description: Minor typo fix.
+Author: Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
+Updated: 2020-05-25
+
+--- a/client/common/cmdline.h
++++ b/client/common/cmdline.h
+@@ -63,7 +63,7 @@ static const COMMAND_LINE_ARGUMENT_A arg
+ 	{ "auth-only", COMMAND_LINE_VALUE_BOOL, NULL, BoolValueFalse, NULL, -1, NULL,
+ 	  "Authenticate only" },
+ 	{ "authentication", COMMAND_LINE_VALUE_BOOL, NULL, BoolValueTrue, NULL, -1, NULL,
+-	  "Authentication (expermiental)" },
++	  "Authentication (experimental)" },
+ 	{ "auto-reconnect", COMMAND_LINE_VALUE_BOOL, NULL, BoolValueFalse, NULL, -1, NULL,
+ 	  "Automatic reconnection" },
+ 	{ "auto-reconnect-max-retries", COMMAND_LINE_VALUE_REQUIRED, "<retries>", NULL, NULL, -1, NULL,
